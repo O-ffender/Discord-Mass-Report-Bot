@@ -10,7 +10,7 @@ This tool was strictly developed to demonstrate how straightforward it can be to
 ## Usage
 - Python 3.8 or above is required.
 - I develop for Windows machines only and do not intentionally support other operating systems.
-- If the bot doesn't work then open command panel and type py install colorama
+- If the bot doesn't work then open command panel and type pip install colorama
 
 
 1. Run main.py.
