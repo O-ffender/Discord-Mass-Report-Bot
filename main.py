@@ -38,9 +38,6 @@ print(f"""
                                                                                                                                                                     
 
 
-PS: Must Have Admin On The Server ;)
-
-{b+Fore.RED} x > {Fore.RESET}TO DO: Subscribe and Like 
 
 {b+Fore.RED} x > {Fore.RESET}Options
 
