@@ -50,7 +50,7 @@ print(f"""
 
 token = input(f"{b+Fore.BLUE} > Token{Fore.RESET}: ")
 headers = {'Authorization': token, 'Content-Type':  'application/json'}  
-r = requests.get('https://discord.com/api/v6/users/@me', headers=headers)
+r = requests.get('https://discord.com/api/v8/users/@me', headers=headers)
 if r.status_code == 200:
         pass
 else:
@@ -78,7 +78,7 @@ def Main():
   }
 
   while True:
-    r = requests.post('https://discord.com/api/v6/report', headers=headers, json=payload)
+    r = requests.post('https://discord.com/api/v8/report', headers=headers, json=payload)
     if r.status_code == 201:
       print(f"{Fore.GREEN} > Sent Report {b+Fore.BLUE}::{Fore.GREEN} ID {message_id1}")
       ctypes.windll.kernel32.SetConsoleTitleW(f"[REPORT BOT] By Offender | Sent: %s" % sent)
